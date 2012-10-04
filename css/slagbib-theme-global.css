@@ -309,7 +309,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .pane-page-tabs ul.primary li.active a,
 .pane-page-tabs ul.primary li a:hover,
 .secondary-tabs ul.secondary a.active,
-.ui-tabs-nav li.active  {
+.ui-tabs-nav li.active {
   background-color: #36113c;
 }
 
@@ -411,7 +411,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 }
 
 .ding_nodelist-slider .prev,
-.ting-search-carousel .rs-carousel-action-prev{
+.ting-search-carousel .rs-carousel-action-prev {
   background-position: -60px 0 !important;
 }
 
@@ -421,8 +421,8 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   padding: 12px 10px 9px 149px;
 }
 
-.page-libraries .pane-page-title  h1,
-.node-type-ding-library  .pane-page-title  h1 {
+.page-libraries .pane-page-title h1,
+.node-type-ding-library .pane-page-title h1 {
   line-height: 24px;
   margin-bottom: 20px;
 }
@@ -473,10 +473,10 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   padding: 2px;
 }
 
-.page-admin-ding-dams-media-manager  .ui-widget input,
-.page-admin-ding-dams-media-manager  .ui-widget select,
-.page-admin-ding-dams-media-manager  .ui-widget textarea,
-.page-admin-ding-dams-media-manager  .ui-widget button {
+.page-admin-ding-dams-media-manager .ui-widget input,
+.page-admin-ding-dams-media-manager .ui-widget select,
+.page-admin-ding-dams-media-manager .ui-widget textarea,
+.page-admin-ding-dams-media-manager .ui-widget button {
   line-height: 20px;
   padding: 2px 20px 2px 2px;
 }
