@@ -165,7 +165,9 @@ a:link, a:visited, a:hover,
 .pane-ding-item-list .item-loan input[type="submit"], .pane-ding-item-list .item-loan input[type="button"],
 .pane-ding-related-items .item-loan button, .pane-ding-related-items .item-loan input[type="reset"],
 .pane-ding-related-items .item-loan input[type="submit"],
-.pane-ding-related-items .item-loan input[type="button"] {
+.pane-ding-related-items .item-loan input[type="button"],
+.ding_nodelist-taxonomy .item-details .item-title a,
+.ding_nodelist-taxonomy .item-details .item-author {
   color: #813389;
   text-decoration: none;
   text-shadow: none;
@@ -280,11 +282,6 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .ui-widget textarea:active,
 .ui-widget button:active {
   border-color: #dbdbdb !important;
-}
-
-.node-type-ding-event .event-short-info .view-content .views-row,
-.node-type-ding-news .news-short-info .view-content .views-row {
-  background: none;
 }
 
 .pane-ding-library-opening-hours-ding-library-opened-today,
@@ -418,6 +415,10 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   background-position: -60px 0 !important;
 }
 
+.page-ting-object .expanded-properties {
+  background-position: 0 -115px;
+}
+
 /* Margins and paddings */
 
 .zone-header .region {
@@ -535,6 +536,17 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .ui-widget select {
   line-height: 29px;
+}
+
+.page-ting-object .field-type-ting-subjects .subject,
+.page-ting-collection .field-type-ting-subjects .subject {
+  font-size: 10px;
+}
+
+.ding-format-long .field-type-ding-entity-buttons .confirmation .form-actions input,
+.page-ting-collection .field-type-ding-entity-buttons .confirmation .form-actions input {
+  font-size: 11px;
+  margin-top: 7px;
 }
 
 /* Content styles */
