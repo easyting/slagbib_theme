@@ -284,11 +284,6 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   border-color: #dbdbdb !important;
 }
 
-.node-type-ding-event .event-short-info .view-content .views-row,
-.node-type-ding-news .news-short-info .view-content .views-row {
-  background: none;
-}
-
 .pane-ding-library-opening-hours-ding-library-opened-today,
 .pane-ding-library-opening-hours-ding-library-opening-hours,
 .pane-opening-hours-week {
