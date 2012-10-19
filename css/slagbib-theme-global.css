@@ -20,6 +20,11 @@ h2 {
   font-size: 14px;
 }
 
+.block-ding-user-frontend-ding-username h2,
+.block-user-login .block-title {
+  font-size: 12px;
+}
+
 .logo-img {
   float: right;
 }
@@ -207,7 +212,9 @@ a:link, a:visited, a:hover,
 .block-search-form form .ui-autocomplete-input:focus,
 .block-user-login input:focus,
 .block-user-login input:active,
-table,
+.page-user table,
+.page-user tr.even,
+.page-user tr.odd,
 .edit-user-profile .form-submit {
   border: none;
 }
@@ -532,6 +539,10 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .ding_nodelist-vertical_accordion .event-month {
   font: 20px/20px 'Soho Gothic W01 Light', Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.page-ting-collection .field-type-ding-entity-buttons .reservation-link-ajax a {
+  font-family: 'Soho Gothic W01 Regular', Helvetica, Arial, sans-serif;
 }
 
 .ui-widget select {
