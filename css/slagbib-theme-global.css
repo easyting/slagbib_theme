@@ -357,11 +357,6 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   background-image: url(../images/vert-slider-sprite.png);
 }
 
-.block-ding-user-frontend-ding-username h2,
-.block-user-login .block-title {
-  background-image: url(../images/login-arrow.png);
-}
-
 .ding_nodelist-carousel .pagination .selected,
 .ding_nodelist-carousel .next-prev .prev,
 .ding_nodelist-carousel .next-prev .next,
@@ -384,6 +379,11 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .ding-periodical-foldable .item-list ul.ding-periodical-foldable li:hover {
   background-image: url(../images/more-button-active.png);
+}
+
+.block-ding-user-frontend-ding-username h2,
+.block-user-login .block-title {
+  background-image: url(../images/login-arrow.png);
 }
 
 .ding_nodelist-slider .next,
