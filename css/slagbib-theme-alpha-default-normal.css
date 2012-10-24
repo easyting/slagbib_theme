@@ -5,3 +5,70 @@
 .wide-panel .ding_nodelist-slider .legend .ding_nodelist-title {
   margin-top: 0;
 }
+
+/* Header user box styles */
+.block-user-login .block-inner .content,
+.block-system-user-menu,
+.block-ding-user-frontend-ding-user-loan-number,
+.block-system-user-menu {
+  display: block !important;
+}
+
+.region-user-second .region-user-second-inner {
+  margin-top: -100px;
+}
+
+.block-ding-user-frontend-ding-user-loan-number {
+  top: -55px;
+}
+
+.block-system-user-menu {
+  top: 42px;
+}
+
+.block-ding-user-frontend-ding-user-loan-number > .block-inner > .content {
+  padding-bottom: 13px;
+}
+
+.block-ding-user-frontend-ding-username h2,
+.block-user-login .block-title {
+  padding-left: 10px;
+}
+
+.block-system-user-menu > .block-inner > .content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.block-user-login .block-inner .content {
+  top: 70px;
+}
+
+.block-user-login form .form-actions {
+  padding-top: 0;
+}
+
+.block-user-login form .form-item {
+  margin-bottom: 5px;
+}
+
+.block-user-login .block-title {
+  font: 14px 'Soho Gothic W01 Regular', Helvetica, Arial, sans-serif;
+  padding-top: 39px;
+}
+
+.block-system-user-menu.even {
+  top: -60px;
+}
+
+.block-system-user-menu > .block-inner > .content,
+.block-user-login .block-inner .content,
+.block-system-user-menu,
+.block-ding-user-frontend-ding-user-loan-number {
+  background: transparent;
+}
+
+.block-ding-user-frontend-ding-username h2,
+.block-user-login .block-title {
+  background-image: none;
+}
