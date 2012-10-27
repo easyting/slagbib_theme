@@ -29,6 +29,13 @@ h2 {
   float: right;
 }
 
+.logo-img span.logo-image {
+  background: url(../images/logo.png) no-repeat 0 0;
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
 .region-branding {
   margin-bottom: 0;
 }
