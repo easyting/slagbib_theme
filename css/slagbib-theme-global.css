@@ -103,7 +103,8 @@ h2 {
 .ui-dialog,
 .pane-ding-item-viewer-item-viewer .ui-tabs-nav,
 .page-search-meta .pane-ding-facetbrowser .option,
-.page-search-meta .mkdru-result-subject a:hover {
+.page-search-meta .mkdru-result-subject a:hover,
+.page-user .pane-page-tabs.secondary-tabs {
   background-color: #813389;
 }
 
@@ -179,7 +180,11 @@ a:link, a:visited, a:hover,
 .pane-ding-related-items .item-loan input[type="submit"],
 .pane-ding-related-items .item-loan input[type="button"],
 .ding_nodelist-taxonomy .item-details .item-title a,
-.ding_nodelist-taxonomy .item-details .item-author {
+.ding_nodelist-taxonomy .item-details .item-author,
+.field-type-ding-entity-buttons .form-actions input,
+.field-type-ding-entity-buttons .reservation-link-ajax a,
+.field-type-ding-entity-buttons .bookmark-link-ajax a,
+.field-type-ding-entity-buttons .ding-entity-button a {
   color: #813389;
   text-decoration: none;
   text-shadow: none;
@@ -550,6 +555,12 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .page-ting-collection .field-type-ding-entity-buttons .reservation-link-ajax a {
   font-family: 'Soho Gothic W01 Regular', Helvetica, Arial, sans-serif;
+}
+
+.pane-ding-library-opening-hours-ding-library-opened-today h2,
+.pane-ding-library-opening-hours-ding-library-opening-hours h2,
+.pane-opening-hours-week h2 {
+  letter-spacing: 0.3px;
 }
 
 .ui-widget select {
