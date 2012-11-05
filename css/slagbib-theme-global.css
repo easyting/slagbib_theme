@@ -552,6 +552,12 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   font-family: 'Soho Gothic W01 Regular', Helvetica, Arial, sans-serif;
 }
 
+.pane-ding-library-opening-hours-ding-library-opened-today h2,
+.pane-ding-library-opening-hours-ding-library-opening-hours h2,
+.pane-opening-hours-week h2 {
+  letter-spacing: 0.3px;
+}
+
 .ui-widget select {
   line-height: 29px;
 }
