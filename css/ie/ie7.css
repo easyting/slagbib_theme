@@ -22,3 +22,7 @@
 .block-user-login input[type="password"] {
   width: 190px;
 }
+
+.search-clear-button {
+  right: 45px;
+}
