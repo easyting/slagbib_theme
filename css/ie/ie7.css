@@ -17,3 +17,7 @@
   position: relative;
   z-index: 19;
 }
+
+.search-clear-button {
+  right: 45px;
+}
