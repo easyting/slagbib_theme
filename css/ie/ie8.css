@@ -1,0 +1,19 @@
+.block-search-form .form-item-search-block-form > .ui-autocomplete-input {
+  padding-top: 8px;
+}
+
+.block-search-form form .extendsearch-advanced input[type="text"] {
+  padding-top: 0;
+}
+
+.block-search-form form .extendsearch-advanced .fieldset-wrapper {
+  width: 470px;
+}
+
+.block-search-form form .extendsearch-advanced span.fieldset-legend {
+  right: 50px;
+}
+
+.block-search-form form .form-actions input {
+  right: -65px;
+}

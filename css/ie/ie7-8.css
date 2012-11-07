@@ -1,0 +1,27 @@
+.block-ding-user-frontend-ding-username h2,
+.block-user-login .block-title {
+  height: 13px;
+  padding-top: 7px;
+}
+
+#region-header-second {
+  margin-top: 94px;
+}
+
+.block-search-form form .ui-autocomplete-input {
+  width: 470px;
+}
+
+.block-search-form form .extendsearch-advanced span.fieldset-legend {
+  right: 32px;
+}
+
+.block-search-form form .extendsearch-advanced .fieldset-wrapper {
+  width: 480px;
+}
+
+.block-search-form form .form-actions input {
+  right: -75px;
+  text-align: left;
+  width: 100px;
+}
