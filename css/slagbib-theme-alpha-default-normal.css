@@ -72,3 +72,8 @@
 .block-user-login .block-title {
   background-image: none;
 }
+
+.block-ding-user-frontend-ding-user-loan-number,
+.block-system-user-menu {
+  width: 230px;
+}

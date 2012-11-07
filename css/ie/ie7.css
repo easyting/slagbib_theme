@@ -17,3 +17,12 @@
   position: relative;
   z-index: 19;
 }
+
+.block-user-login input[type="text"],
+.block-user-login input[type="password"] {
+  width: 190px;
+}
+
+.search-clear-button {
+  right: 45px;
+}

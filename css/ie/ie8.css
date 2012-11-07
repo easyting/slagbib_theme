@@ -17,3 +17,7 @@
 .block-search-form form .form-actions input {
   right: -65px;
 }
+
+.search-clear-button {
+  right: 65px;
+}

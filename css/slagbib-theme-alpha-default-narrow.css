@@ -9,3 +9,8 @@
 .ding_nodelist-horizontal_accordion .ding_nodelist-items .item .image img {
   max-width: 380px !important;
 }
+
+.block-ding-user-frontend-ding-user-loan-number,
+.block-system-user-menu {
+  width: 180px;
+}
