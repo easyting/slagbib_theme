@@ -32,8 +32,8 @@ h2 {
 .logo-img span.logo-image {
   background: url(../images/logo.png) no-repeat 0 0;
   display: block;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .region-branding {
@@ -470,7 +470,8 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 }
 
 .pane-ding-item-viewer-item-viewer .ui-tabs-nav {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .block-menu-secondary-menu {
@@ -576,6 +577,10 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .page-ting-collection .field-type-ding-entity-buttons .confirmation .form-actions input {
   font-size: 11px;
   margin-top: 7px;
+}
+
+.block-search-form form .ui-autocomplete-input {
+  font-size: 13px;
 }
 
 /* Content styles */

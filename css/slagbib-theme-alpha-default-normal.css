@@ -75,5 +75,26 @@
 
 .block-ding-user-frontend-ding-user-loan-number,
 .block-system-user-menu {
-  width: 230px;
+  width: 150px;
+}
+
+.block-ding-user-frontend-ding-username h2 span {
+  line-height: 13px;
+}
+
+.block-ding-user-frontend-ding-user-loan-number > .block-inner > .content,
+.block-system-user-menu > .block-inner > .content,
+.block-user-login form .form-item {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.block-ding-user-frontend-ding-username h2,
+.block-user-login .block-title {
+  padding-left: 0;
+}
+
+.block-user-login form .form-actions {
+  margin: 0;
+  padding: 0;
 }
