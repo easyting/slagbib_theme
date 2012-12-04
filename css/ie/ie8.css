@@ -7,7 +7,8 @@
 }
 
 .block-search-form form .extendsearch-advanced .fieldset-wrapper {
-  width: 470px;
+  padding-right: 120px;
+  width: 555px;
 }
 
 .block-search-form form .extendsearch-advanced span.fieldset-legend {
@@ -20,4 +21,8 @@
 
 .search-clear-button {
   right: 65px;
+}
+
+.block-search-form form .ui-autocomplete-input {
+  width: 555px;
 }
