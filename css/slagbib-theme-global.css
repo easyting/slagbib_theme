@@ -53,10 +53,11 @@ h2 {
 }
 
 .site-name-slogan .site-slogan,
-.node-type-ding-news .news-left-column,
-.node-type-ding-event .left-column-data {
+.node-type-ding-news .news-left-column .views-label,
+.node-type-ding-event .left-column-data .views-label {
   display: none;
 }
+
 
 .site-name-slogan .site-name a {
   background: url(../images/slagbib-title.png) no-repeat scroll 0 0 transparent;
