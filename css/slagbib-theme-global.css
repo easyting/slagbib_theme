@@ -554,6 +554,10 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   text-shadow: none;
 }
 
+.block-user-login .block-title {
+  display: none;
+}
+
 .ding_nodelist-vertical_accordion .event-day {
   font: 24px/24px 'Soho Gothic W01 Bold', Helvetica, Arial, sans-serif;
   margin: 0;
