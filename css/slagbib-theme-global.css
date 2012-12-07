@@ -53,8 +53,8 @@ h2 {
 }
 
 .site-name-slogan .site-slogan,
-.node-type-ding-news .news-left-column,
-.node-type-ding-event .left-column-data {
+.node-type-ding-news .news-left-column .views-label,
+.node-type-ding-event .left-column-data .views-label {
   display: none;
 }
 
