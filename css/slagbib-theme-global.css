@@ -53,8 +53,8 @@ h2 {
 }
 
 .site-name-slogan .site-slogan,
-.node-type-ding-news .news-left-column,
-.node-type-ding-event .left-column-data {
+.node-type-ding-news .news-left-column .views-label,
+.node-type-ding-event .left-column-data .views-label {
   display: none;
 }
 
@@ -552,6 +552,10 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .ding_nodelist-slider .item h3 {
   text-shadow: none;
+}
+
+.block-user-login .block-title {
+  display: none;
 }
 
 .ding_nodelist-vertical_accordion .event-day {
