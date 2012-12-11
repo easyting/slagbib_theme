@@ -339,6 +339,10 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   background-color: #36113c;
 }
 
+.page-taxonomy-term .pane-taxonomy-term .pane-title {
+  color: #36113c;
+}
+
 .node-type-ding-event .content-event-month,
 .node-type-ding-event .content-event-day .pane-content {
   border-color: #813389;
