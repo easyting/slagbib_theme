@@ -275,7 +275,10 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .pane-opening-hours-week .name,
 .block-system-user-menu ul li a:link,
 .block-system-user-menu ul li a:hover,
-.block-system-user-menu ul li a:visited {
+.block-system-user-menu ul li a:visited,
+.pane-ding-library-opening-hours-ding-library-opened-today .name a:link,
+.pane-ding-library-opening-hours-ding-library-opened-today .name a:visited,
+.pane-ding-library-opening-hours-ding-library-opened-today .name a:hover {
   color: #fff;
 }
 
