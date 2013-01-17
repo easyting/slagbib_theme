@@ -114,7 +114,9 @@ h2 {
 .pane-ding-item-viewer-item-viewer .ui-tabs-nav,
 .page-search-meta .pane-ding-facetbrowser .option,
 .page-search-meta .mkdru-result-subject a:hover,
-.page-user .pane-page-tabs.secondary-tabs {
+.page-user .pane-page-tabs.secondary-tabs,
+.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings h2,
+.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings table {
   background-color: #813389;
 }
 
@@ -278,7 +280,9 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .block-system-user-menu ul li a:visited,
 .pane-ding-library-opening-hours-ding-library-opened-today .name a:link,
 .pane-ding-library-opening-hours-ding-library-opened-today .name a:visited,
-.pane-ding-library-opening-hours-ding-library-opened-today .name a:hover {
+.pane-ding-library-opening-hours-ding-library-opened-today .name a:hover,
+.page-ting-object .pane-ting-object-ding-availability-holdings h2,
+.page-ting-object .pane-ting-object-ding-availability-holdings table th {
   color: #fff;
 }
 
