@@ -70,7 +70,10 @@ h2 {
 
 /* Color settings */
 
-.block-ding-library-library-address,
+.block-ding-library-library-address {
+  background: #4b1755;
+}
+
 .ding_nodelist-horizontal_accordion .ding_nodelist-items .item .label,
 .ding_nodelist-carousel .ding_nodelist-items .item .event-label,
 .ding_nodelist-single .ding_nodelist-items .item .event-label,
