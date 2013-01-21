@@ -623,3 +623,12 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .pane-page-tabs ul.primary li {
   display: block;
 }
+
+.block-main-menu .content ul li ul {
+  display: none;
+}
+
+.block-main-menu .content > .expanded-menu {
+  height: 28px;
+  overflow: initial;
+}

@@ -1,0 +1,8 @@
+.block-main-menu .content ul li ul {
+  display: none;
+}
+
+.block-main-menu .content > .expanded-menu {
+  height: 28px;
+  overflow: initial;
+}
