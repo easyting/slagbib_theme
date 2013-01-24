@@ -6,3 +6,8 @@
   height: 28px;
   overflow: initial;
 }
+
+.block-search .form-radios {
+  display: none;
+}
+
