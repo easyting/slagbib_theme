@@ -15,15 +15,15 @@
 }
 
 .region-user-second .region-user-second-inner {
-  margin-top: -100px;
+  margin-top: -95px;
 }
 
 .block-ding-user-frontend-ding-user-loan-number {
-  top: -55px;
+  top: -65px;
 }
 
 .block-system-user-menu {
-  top: 42px;
+  top: 26px;
 }
 
 .block-ding-user-frontend-ding-user-loan-number > .block-inner > .content {
@@ -41,7 +41,7 @@
 }
 
 .block-user-login .block-inner .content {
-  top: 70px;
+  top: 35px;
 }
 
 .block-user-login form .form-actions {
@@ -97,4 +97,13 @@
 .block-user-login form .form-actions {
   margin: 0;
   padding: 0;
+}
+
+.block-ding-user-frontend-ding-user-loan-number,
+.block-system-user-menu {
+  margin-right: 0;
+}
+
+.block-ding-user-frontend-ding-username h2 {
+  padding-top: 10px;
 }

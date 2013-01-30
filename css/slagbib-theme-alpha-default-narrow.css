@@ -14,3 +14,20 @@
 .block-system-user-menu {
   width: 120px;
 }
+
+.block-ding-user-frontend-ding-user-loan-number {
+  top: 45px;
+}
+
+.block-system-user-menu {
+  top: 145px;
+}
+
+.block-ding-user-frontend-ding-user-loan-number,
+.block-system-user-menu {
+  margin-right: -20px;
+}
+
+.block-ding-user-frontend-ding-username h2 {
+  padding-top: 16px;
+}
