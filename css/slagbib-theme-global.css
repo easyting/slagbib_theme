@@ -119,7 +119,39 @@ h2 {
 .page-search-meta .mkdru-result-subject a:hover,
 .page-user .pane-page-tabs.secondary-tabs,
 .page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings h2,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings table {
+.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings table,
+.page-ting.responsive-layout-mobile .field-type-ding-entity-buttons .ding-entity-button a,
+.page-ting-collection.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a,
+.page-ting-object.responsive-layout-mobile .field-type-ding-entity-buttons input,
+.responsive-layout-mobile .field-type-ding-entity-buttons .form-actions input,
+.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a,
+.responsive-layout-mobile .field-type-ding-entity-buttons .bookmark-link-ajax a,
+.responsive-layout-mobile .field-type-ding-entity-buttons .ding-entity-button a,
+.page-ting.responsive-layout-mobile .sfx-link a,
+.page-search.responsive-layout-mobile .sfx-link a,
+.page-taxonomy-term.responsive-layout-mobile .node-links ul li a,
+.page-taxonomy-term.responsive-layout-mobile .comment-links ul li a,
+.page-taxonomy-term.responsive-layout-mobile .view-taxonomy-term .item-list .pager a,
+.page-search-node.responsive-layout-mobile .pane-ding-node-search .item-list .pager a,
+.page-taxonomy-term.responsive-layout-mobile .view-taxonomy-term .item-list .pager-current,
+.responsive-layout-mobile .search-results-tabs ul.primary li a,
+.responsive-layout-mobile .search-results-tabs ul.primary li a:hover,
+.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page a,
+.responsive-layout-mobile .secondary-tabs ul.secondary li a,
+.responsive-layout-mobile .pane-loans .operations .renew-loan-button input,
+.responsive-layout-mobile .edit-user-profile .form-submit,
+.responsive-layout-mobile .pane-bookmarks .ding-entity-button a,
+.page-search-ting.responsive-layout-mobile .item-list .pager a,
+.page-search-ting.responsive-layout-mobile .item-list .pager-current,
+.page-taxonomy-termv .view-taxonomy-term .item-list .pager-current,
+.page-search-node.responsive-layout-mobile .pane-ding-node-search .item-list .pager-current,
+.page-search-meta.responsive-layout-mobile .mkdru-pager a,
+.page-search-meta.responsive-layout-mobile .mkdru-pager span,
+.responsive-layout-mobile .ding_nodelist-slider .item .more a,
+.responsive-layout-mobile .reservation-link-ajax a:link,
+.responsive-layout-mobile .reservation-link-ajax a:visited,
+.responsive-layout-mobile .ding_nodelist-single .ding_nodelist-items .more a,
+.responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a {
   background-color: #813389;
 }
 
@@ -199,7 +231,8 @@ a:link, a:visited, a:hover,
 .field-type-ding-entity-buttons .form-actions input,
 .field-type-ding-entity-buttons .reservation-link-ajax a,
 .field-type-ding-entity-buttons .bookmark-link-ajax a,
-.field-type-ding-entity-buttons .ding-entity-button a {
+.field-type-ding-entity-buttons .ding-entity-button a,
+.node-type-ding-library .pane-ding-event .title a {
   color: #813389;
   text-decoration: none;
   text-shadow: none;
@@ -634,4 +667,96 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .block-main-menu .content > .expanded-menu {
   height: 28px;
   overflow: initial;
+}
+
+/* Mobile styles */
+.responsive-layout-mobile .zone-header,
+.responsive-layout-mobile .region-menu {
+  margin: 0 10px;
+}
+
+.responsive-layout-mobile .zone-menu-wrapper {
+  margin-top: 0;
+}
+
+.responsive-layout-mobile .block-search-form form .form-actions input {
+  font-size: 18px;
+}
+
+.responsive-layout-mobile .user-menu-expand,
+.responsive-layout-mobile .block-user-login {
+  right: 0;
+}
+
+.responsive-layout-mobile .user-menu-expand {
+  background: url(../images/user-icon.png) no-repeat center center #52195e;
+}
+
+.responsive-layout-mobile .block-ding-user-frontend-ding-username,
+.responsive-layout-mobile .block-user-login .block-inner,
+.responsive-layout-mobile .block-main-menu .content > ul > li > a,
+.responsive-layout-mobile .pane-reservations .op-reservations .delete-reservations,
+.responsive-layout-mobile .pane-reservations .op-reservations .update-reservations {
+  background-color: #52195e;
+}
+
+.responsive-layout-mobile .block-main-menu .content ul li.active > a,
+.responsive-layout-mobile .sidebar-menu-expand,
+.responsive-layout-mobile .secondary-tabs ul.secondary a.active {
+  background-color: #35123c;
+}
+
+.responsive-layout-mobile .block-ding-user-frontend-ding-username,
+.responsive-layout-mobile .block-system-user-menu,
+.responsive-layout-mobile .block-ding-user-frontend-ding-user-loan-number {
+  right: 0;
+}
+
+.responsive-layout-mobile .block-system-user-menu.even {
+  top: 73px;
+}
+
+.responsive-layout-mobile .block-user-login .block-inner .content {
+  display: block;
+  position: relative;
+  top: 0;
+}
+
+.responsive-layout-mobile .block-user-login .block-title {
+  display: block;
+}
+
+.responsive-layout-mobile .block-ding-user-frontend-ding-username {
+  z-index: 49;
+}
+
+.responsive-layout-mobile.page-libraries .pane-page-title,
+.responsive-layout-mobile.page-libraries .pane-ding-library {
+  padding-left: 0;
+}
+
+.responsive-layout-mobile .ding_nodelist-carousel .pagination .selected,
+.responsive-layout-mobile .ding_nodelist-carousel .next-prev .prev,
+.responsive-layout-mobile .ding_nodelist-carousel .next-prev .next,
+.responsive-layout-mobile .ding_nodelist-horizontal_accordion .ding_nodelist-items .expand a,
+.responsive-layout-mobile .ting-search-carousel .rs-carousel-action-next,
+.responsive-layout-mobile .ting-search-carousel .rs-carousel-action-prev,
+.responsive-layout-mobile .browsebar-inner .more-info {
+  background-image: url(../images/arrows-sprite-mobile.png);
+}
+
+.responsive-layout-mobile .ting-search-carousel .rs-carousel-action-prev {
+  background-position: 0 0 !important;
+}
+
+.responsive-layout-mobile .pane-ding-toggle-format-toggle .pane-content a {
+  background-image: url(../images/toggle-icon-mobile.png);
+}
+
+.responsive-layout-mobile .block-search-form form .extendsearch-advanced .fieldset-wrapper {
+  z-index: 51;
+}
+
+.responsive-layout-mobile .pane-loans .renew-loan-button input {
+  color: #fff;
 }
