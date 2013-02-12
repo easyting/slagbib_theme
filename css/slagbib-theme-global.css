@@ -332,7 +332,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   color: #dcdadb;
 }
 
-.block-main-menu .content {
+.block-main-menu > div > .content {
   background-color: #481550;
 }
 
@@ -759,4 +759,8 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .responsive-layout-mobile .pane-loans .renew-loan-button input {
   color: #fff;
+}
+
+ul.ui-autocomplete {
+  max-width: 773px;
 }
