@@ -232,7 +232,8 @@ a:link, a:visited, a:hover,
 .field-type-ding-entity-buttons .reservation-link-ajax a,
 .field-type-ding-entity-buttons .bookmark-link-ajax a,
 .field-type-ding-entity-buttons .ding-entity-button a,
-.node-type-ding-library .pane-ding-event .title a {
+.node-type-ding-library .pane-ding-event .title a,
+.page-user-login .region-content-inner .form-submit {
   color: #813389;
   text-decoration: none;
   text-shadow: none;
@@ -363,7 +364,9 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 }
 
 .edit-user-profile input,
-#edit-account .form-text {
+#edit-account .form-text,
+.page-user-login .region-content-inner input[type="text"],
+.page-user-login .region-content-inner input[type="password"] {
   background-color: #e2e2e2;
 }
 
