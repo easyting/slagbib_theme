@@ -1,0 +1,34 @@
+.block-main-menu .content ul li ul {
+  display: none;
+}
+
+.block-main-menu .content > .expanded-menu {
+  height: 28px;
+  overflow: initial;
+}
+
+.block-search .form-radios {
+  display: none;
+}
+
+.block-ding-user-frontend-ding-user-loan-number {
+  top: -65px;
+}
+
+.block-system-user-menu {
+  top: 26px;
+  width: 150px;
+}
+
+.block-system-user-menu.even {
+  width: 150px;
+}
+
+.block-ding-user-frontend-ding-username h2 {
+  padding-top: 10px;
+}
+
+.block-ding-user-frontend-ding-username h2,
+.block-user-login .block-title {
+  margin-left: -10px;
+}

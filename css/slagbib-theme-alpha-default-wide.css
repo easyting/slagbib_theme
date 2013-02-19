@@ -3,6 +3,11 @@
 }
 
 .block-ding-user-frontend-ding-user-loan-number,
-.block-system-user-menu {
+.block-system-user-menu,
+.block-system-user-menu.even {
   width: 190px;
+}
+
+.block-system-user-menu.even {
+  top: -60px;
 }
