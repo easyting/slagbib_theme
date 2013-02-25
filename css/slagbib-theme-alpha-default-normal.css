@@ -75,7 +75,7 @@
 
 .block-ding-user-frontend-ding-user-loan-number,
 .block-system-user-menu {
-  width: 150px;
+  width: 220px;
 }
 
 .block-ding-user-frontend-ding-username h2 span {
@@ -106,4 +106,8 @@
 
 .block-ding-user-frontend-ding-username h2 {
   padding-top: 10px;
+}
+
+.block-system-user-menu.even {
+  width: 220px;
 }

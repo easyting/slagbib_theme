@@ -767,3 +767,8 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 ul.ui-autocomplete {
   max-width: 773px;
 }
+
+.node-type-ding-event .left-column-data .views-field-name,
+.node-type-ding-event .left-column-data .views-field-created {
+  display: none;
+}
