@@ -21,7 +21,7 @@
 }
 
 .block-system-user-menu.even {
-  width: 150px;
+  width: 190px;
 }
 
 .block-ding-user-frontend-ding-username h2 {
@@ -30,9 +30,23 @@
 
 .block-ding-user-frontend-ding-username h2,
 .block-user-login .block-title {
-  margin-left: -10px;
+  margin-left: 0;
 }
 
 .block-user-login .block-inner .content > * {
   display: block;
+}
+
+.block-search-form form .extendsearch-advanced .fieldset-wrapper,
+.block-user-login .block-inner .content, .block-system-user-menu,
+.block-ding-user-frontend-ding-user-loan-number {
+  background: none;
+}
+
+.responsive-layout-narrow .block-user-login {
+  top: -120px;
+}
+
+.responsive-layout-narrow .block-system-user-menu {
+  background-color: #52195e;
 }
