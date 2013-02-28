@@ -151,7 +151,8 @@ h2 {
 .responsive-layout-mobile .reservation-link-ajax a:link,
 .responsive-layout-mobile .reservation-link-ajax a:visited,
 .responsive-layout-mobile .ding_nodelist-single .ding_nodelist-items .more a,
-.responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a {
+.responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a,
+.pane-ting-object-voxb-tags .tag a:hover {
   background-color: #813389;
 }
 
@@ -233,7 +234,8 @@ a:link, a:visited, a:hover,
 .field-type-ding-entity-buttons .bookmark-link-ajax a,
 .field-type-ding-entity-buttons .ding-entity-button a,
 .node-type-ding-library .pane-ding-event .title a,
-.page-user-login .region-content-inner .form-submit {
+.page-user-login .region-content-inner .form-submit,
+.pane-ting-object-voxb-tags form .form-submit {
   color: #813389;
   text-decoration: none;
   text-shadow: none;
@@ -366,7 +368,8 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .edit-user-profile input,
 #edit-account .form-text,
 .page-user-login .region-content-inner input[type="text"],
-.page-user-login .region-content-inner input[type="password"] {
+.page-user-login .region-content-inner input[type="password"],
+.pane-ting-object-voxb-tags form .form-text {
   background-color: #e2e2e2;
 }
 
