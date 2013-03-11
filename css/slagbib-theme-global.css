@@ -25,6 +25,10 @@ h2 {
   font-size: 12px;
 }
 
+.block-ding-user-frontend-ding-username h2 {
+  overflow: hidden;
+}
+
 .logo-img {
   float: right;
 }
