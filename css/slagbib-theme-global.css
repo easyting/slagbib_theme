@@ -58,7 +58,9 @@ h2 {
 
 .site-name-slogan .site-slogan,
 .node-type-ding-news .news-left-column .views-label,
-.node-type-ding-event .left-column-data .views-label {
+.node-type-ding-event .left-column-data .views-label,
+.page-taxonomy .username,
+.ding_nodelist-taxonomy .item-author {
   display: none;
 }
 
@@ -239,7 +241,9 @@ a:link, a:visited, a:hover,
 .field-type-ding-entity-buttons .ding-entity-button a,
 .node-type-ding-library .pane-ding-event .title a,
 .page-user-login .region-content-inner .form-submit,
-.pane-ting-object-voxb-tags form .form-submit {
+.pane-ting-object-voxb-tags form .form-submit,
+.node-type-ding-library .pane-ding-event .title a,
+.node-type-ding-library .pane-ding-news .title a {
   color: #813389;
   text-decoration: none;
   text-shadow: none;
