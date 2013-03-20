@@ -656,6 +656,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .block-search-form form .ui-autocomplete-input {
   font-size: 13px;
+  padding-right: 70px;
 }
 
 .block-ding-library-library-address span {
