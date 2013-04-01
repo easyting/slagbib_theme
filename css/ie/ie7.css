@@ -32,6 +32,6 @@
 }
 
 .block-search-form form .ui-autocomplete-input {
-  padding-right: 70px;
-  width: 410px;
+  overflow: hidden;
+  width: 430px;
 }
