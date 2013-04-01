@@ -654,7 +654,8 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   margin-top: 7px;
 }
 
-.block-search-form form .ui-autocomplete-input {
+.block-search-form form .ui-autocomplete-input,
+.block-search-form form .ui-autocomplete-input:focus {
   font-size: 13px;
   padding-right: 70px;
 }
