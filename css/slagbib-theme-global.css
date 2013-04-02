@@ -419,7 +419,8 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .block-ding-library-library-address a:hover,
 .no-js .block-search-form form .extendsearch-advanced .fieldset-wrapper,
 .no-js .block-user-login .block-inner .content, .block-system-user-menu,
-.no-js .block-ding-user-frontend-ding-user-loan-number {
+.no-js .block-ding-user-frontend-ding-user-loan-number,
+.no-js .block-ding-user-frontend-ding-username .block-inner > .content {
   background: transparent;
 }
 
@@ -789,4 +790,9 @@ ul.ui-autocomplete {
 .node-type-ding-event .left-column-data .views-field-name,
 .node-type-ding-event .left-column-data .views-field-created {
   display: none;
+}
+
+.no-js .block-ding-user-frontend-ding-username .block-inner > .content > div {
+  margin-left: 0;
+  margin-right: 0;
 }
