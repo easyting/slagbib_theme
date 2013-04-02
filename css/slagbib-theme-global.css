@@ -275,7 +275,8 @@ a:link, a:visited, a:hover,
 }
 
 .block-search-form form .ui-autocomplete-input,
-.block-search-form form .extendsearch-advanced input[type="text"] {
+.block-search-form form .extendsearch-advanced input[type="text"],
+.no-js .block-search-form form .form-item input[type="text"] {
   background-color: #fff;
 }
 
@@ -329,7 +330,8 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .pane-ding-library-opening-hours-ding-library-opened-today .name a:visited,
 .pane-ding-library-opening-hours-ding-library-opened-today .name a:hover,
 .page-ting-object .pane-ting-object-ding-availability-holdings h2,
-.page-ting-object .pane-ting-object-ding-availability-holdings table th {
+.page-ting-object .pane-ting-object-ding-availability-holdings table th,
+.no-js .block-search-form form .extendsearch-advanced label {
   color: #fff;
 }
 
@@ -414,7 +416,11 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .block-ding-library-library-address a:link,
 .block-ding-library-library-address a:visited,
-.block-ding-library-library-address a:hover {
+.block-ding-library-library-address a:hover,
+.no-js .block-search-form form .extendsearch-advanced .fieldset-wrapper,
+.no-js .block-user-login .block-inner .content, .block-system-user-menu,
+.no-js .block-ding-user-frontend-ding-user-loan-number,
+.no-js .block-ding-user-frontend-ding-username .block-inner > .content {
   background: transparent;
 }
 
@@ -784,4 +790,9 @@ ul.ui-autocomplete {
 .node-type-ding-event .left-column-data .views-field-name,
 .node-type-ding-event .left-column-data .views-field-created {
   display: none;
+}
+
+.no-js .block-ding-user-frontend-ding-username .block-inner > .content > div {
+  margin-left: 0;
+  margin-right: 0;
 }
