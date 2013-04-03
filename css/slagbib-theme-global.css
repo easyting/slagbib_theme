@@ -20,6 +20,26 @@ h2 {
   font-size: 14px;
 }
 
+a:focus,
+button:focus,
+textarea:focus,
+select:focus,
+input:focus {
+  outline: 1px dashed #36113c;
+}
+
+.pane-ding-library-opening-hours-ding-library-opened-today a:focus,
+.pane-ding-item-viewer-item-viewer a:focus,
+.block-menu-secondary-menu a:focus,
+.block-main-menu a:focus,
+.site-name a:focus,
+.pane-ding-toggle-format-toggle a:focus,
+.block-search-form form .form-actions input:focus,
+.block-user-menu a:focus,
+.block-ding-library a:focus {
+  outline: 1px dashed #fff;
+}
+
 .block-ding-user-frontend-ding-username h2,
 .block-user-login .block-title {
   font-size: 12px;
