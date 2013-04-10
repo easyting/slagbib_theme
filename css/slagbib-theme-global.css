@@ -263,7 +263,9 @@ a:link, a:visited, a:hover,
 .page-user-login .region-content-inner .form-submit,
 .pane-ting-object-voxb-tags form .form-submit,
 .node-type-ding-library .pane-ding-event .title a,
-.node-type-ding-library .pane-ding-news .title a {
+.node-type-ding-library .pane-ding-news .title a,
+.page-taxonomy-term .pane-taxonomy-term .term-title,
+.ding_nodelist-taxonomy h2.ding_nodelist-title {
   color: #813389;
   text-decoration: none;
   text-shadow: none;
