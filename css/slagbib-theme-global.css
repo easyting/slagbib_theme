@@ -20,14 +20,6 @@ h2 {
   font-size: 14px;
 }
 
-a:focus,
-button:focus,
-textarea:focus,
-select:focus,
-input:focus {
-  outline: 1px dashed #36113c;
-}
-
 .pane-ding-library-opening-hours-ding-library-opened-today a:focus,
 .pane-ding-item-viewer-item-viewer a:focus,
 .block-menu-secondary-menu a:focus,
@@ -144,8 +136,7 @@ input:focus {
 .page-search-meta .pane-ding-facetbrowser .option,
 .page-search-meta .mkdru-result-subject a:hover,
 .page-user .pane-page-tabs.secondary-tabs,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings h2,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings table,
+.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings .holdings,
 .page-ting.responsive-layout-mobile .field-type-ding-entity-buttons .ding-entity-button a,
 .page-ting-collection.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a,
 .page-ting-object.responsive-layout-mobile .field-type-ding-entity-buttons input,
