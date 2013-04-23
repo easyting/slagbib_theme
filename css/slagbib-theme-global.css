@@ -169,7 +169,8 @@ h2 {
 .responsive-layout-mobile .reservation-link-ajax a:visited,
 .responsive-layout-mobile .ding_nodelist-single .ding_nodelist-items .more a,
 .responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a,
-.pane-ting-object-voxb-tags .tag a:hover {
+.pane-ting-object-voxb-tags .tag a:hover,
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
   background-color: #813389;
 }
 
@@ -256,7 +257,8 @@ a:link, a:visited, a:hover,
 .node-type-ding-library .pane-ding-event .title a,
 .node-type-ding-library .pane-ding-news .title a,
 .page-taxonomy-term .pane-taxonomy-term .term-title,
-.ding_nodelist-taxonomy h2.ding_nodelist-title {
+.ding_nodelist-taxonomy h2.ding_nodelist-title,
+.pane-emailkanon-emailkanon-subscribe-block .form-submit {
   color: #813389;
   text-decoration: none;
   text-shadow: none;
