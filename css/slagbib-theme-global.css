@@ -291,12 +291,15 @@ a:link, a:visited, a:hover,
 
 .block-search-form form .ui-autocomplete-input,
 .block-search-form form .extendsearch-advanced input[type="text"],
-.no-js .block-search-form form .form-item input[type="text"] {
+.no-js .block-search-form form .form-item input[type="text"],
+.block-search-form form input[name="search_block_form"] {
   background-color: #fff;
 }
 
 .block-search-form form .ui-autocomplete-input:active,
 .block-search-form form .ui-autocomplete-input:focus,
+.block-search-form form input[name="search_block_form"]:active,
+.block-search-form form input[name="search_block_form"]:focus,
 .block-user-login input:focus,
 .block-user-login input:active,
 .page-user table,
@@ -676,7 +679,9 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 }
 
 .block-search-form form .ui-autocomplete-input,
-.block-search-form form .ui-autocomplete-input:focus {
+.block-search-form form .ui-autocomplete-input:focus,
+.block-search-form form input[name="search_block_form"],
+.block-search-form form input[name="search_block_form"]:focus {
   font-size: 13px;
   padding-right: 70px;
 }
