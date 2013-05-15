@@ -20,26 +20,6 @@ h2 {
   font-size: 14px;
 }
 
-a:focus,
-button:focus,
-textarea:focus,
-select:focus,
-input:focus {
-  outline: 1px dashed #36113c;
-}
-
-.pane-ding-library-opening-hours-ding-library-opened-today a:focus,
-.pane-ding-item-viewer-item-viewer a:focus,
-.block-menu-secondary-menu a:focus,
-.block-main-menu a:focus,
-.site-name a:focus,
-.pane-ding-toggle-format-toggle a:focus,
-.block-search-form form .form-actions input:focus,
-.block-user-menu a:focus,
-.block-ding-library a:focus {
-  outline: 1px dashed #fff;
-}
-
 .block-ding-user-frontend-ding-username h2,
 .block-user-login .block-title {
   font-size: 12px;
@@ -144,8 +124,7 @@ input:focus {
 .page-search-meta .pane-ding-facetbrowser .option,
 .page-search-meta .mkdru-result-subject a:hover,
 .page-user .pane-page-tabs.secondary-tabs,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings h2,
-.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings table,
+.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings .holdings,
 .page-ting.responsive-layout-mobile .field-type-ding-entity-buttons .ding-entity-button a,
 .page-ting-collection.responsive-layout-mobile .field-type-ding-entity-buttons .reservation-link-ajax a,
 .page-ting-object.responsive-layout-mobile .field-type-ding-entity-buttons input,
@@ -178,7 +157,8 @@ input:focus {
 .responsive-layout-mobile .reservation-link-ajax a:visited,
 .responsive-layout-mobile .ding_nodelist-single .ding_nodelist-items .more a,
 .responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a,
-.pane-ting-object-voxb-tags .tag a:hover {
+.pane-ting-object-voxb-tags .tag a:hover,
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
   background-color: #813389;
 }
 
@@ -265,7 +245,8 @@ a:link, a:visited, a:hover,
 .node-type-ding-library .pane-ding-event .title a,
 .node-type-ding-library .pane-ding-news .title a,
 .page-taxonomy-term .pane-taxonomy-term .term-title,
-.ding_nodelist-taxonomy h2.ding_nodelist-title {
+.ding_nodelist-taxonomy h2.ding_nodelist-title,
+.pane-emailkanon-emailkanon-subscribe-block .form-submit {
   color: #813389;
   text-decoration: none;
   text-shadow: none;
@@ -298,12 +279,15 @@ a:link, a:visited, a:hover,
 
 .block-search-form form .ui-autocomplete-input,
 .block-search-form form .extendsearch-advanced input[type="text"],
-.no-js .block-search-form form .form-item input[type="text"] {
+.no-js .block-search-form form .form-item input[type="text"],
+.block-search-form form input[name="search_block_form"] {
   background-color: #fff;
 }
 
 .block-search-form form .ui-autocomplete-input:active,
 .block-search-form form .ui-autocomplete-input:focus,
+.block-search-form form input[name="search_block_form"]:active,
+.block-search-form form input[name="search_block_form"]:focus,
 .block-user-login input:focus,
 .block-user-login input:active,
 .page-user table,
@@ -683,7 +667,9 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 }
 
 .block-search-form form .ui-autocomplete-input,
-.block-search-form form .ui-autocomplete-input:focus {
+.block-search-form form .ui-autocomplete-input:focus,
+.block-search-form form input[name="search_block_form"],
+.block-search-form form input[name="search_block_form"]:focus {
   font-size: 13px;
   padding-right: 70px;
 }

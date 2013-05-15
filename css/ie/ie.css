@@ -1,5 +1,7 @@
 .block-search-form form .ui-autocomplete-input,
-.block-search-form form .ui-autocomplete-input:focus {
+.block-search-form form .ui-autocomplete-input:focus,
+.block-search-form form input[name="search_block_form"],
+.block-search-form form input[name="search_block_form"]:focus {
   border-right: 50px solid #fff;
   padding-right: 0;
 }

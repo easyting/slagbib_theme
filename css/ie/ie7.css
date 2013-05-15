@@ -35,3 +35,11 @@
   overflow: hidden;
   width: 430px;
 }
+
+.block-user-login .block-inner .content {
+  top: 150px;
+}
+
+.responsive-layout-narrow section.block-system-user-menu {
+  background: transparent;
+}
