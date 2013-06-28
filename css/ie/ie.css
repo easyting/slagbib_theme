@@ -5,3 +5,7 @@
   border-right: 50px solid #fff;
   padding-right: 0;
 }
+
+html.js fieldset.collapsed .fieldset-wrapper {
+  display: none;
+}

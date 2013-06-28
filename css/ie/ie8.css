@@ -23,6 +23,27 @@
   right: 65px;
 }
 
-.block-search-form form .ui-autocomplete-input {
-  width: 470px;
+/* Search bar */
+#search-block-form,
+#search-block-form div {
+  float: none;
+}
+
+#search-block-form .form-submit {
+  text-align: right;
+}
+
+#search-block-form .extendsearch-advanced {
+  height: auto;
+}
+
+#edit-advanced-search .fieldset-wrapper {
+  position: relative;
+  top: 0;
+  padding: 10px 125px 0 0;
+  left: 0;
+}
+
+.block-search-form form .extendsearch-advanced {
+  height: auto;
 }
