@@ -47,3 +47,7 @@
 #search-block-form .form-item-search-block-form input[type="text"] {
   width: 513px;
 }
+
+#search-block-form .form-submit {
+  right: -85px;
+}
