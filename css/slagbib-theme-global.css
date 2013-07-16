@@ -218,7 +218,6 @@ a:link, a:visited, a:hover,
 .ding-periodical-foldable .item-list ul.ding-periodical-foldable li:hover,
 .pane-loans .operations .renew-loan-button input,
 .pane-reservations .delete-reservation input,
-.pane-loans .renew-loan-button input,
 .edit-user-profile .form-submit,
 .edit-user-profile label .form-required,
 .edit-user-profile input,
@@ -228,8 +227,10 @@ a:link, a:visited, a:hover,
 .page-search-meta .mkdru-pager span,
 .pane-ting-object-ting-reference-reverse .node-title a,
 .pane-ding-item-list .item-loan button, .pane-ding-item-list .item-loan input[type="reset"],
-.pane-ding-item-list .item-loan input[type="submit"], .pane-ding-item-list .item-loan input[type="button"],
-.pane-ding-related-items .item-loan button, .pane-ding-related-items .item-loan input[type="reset"],
+.pane-ding-item-list .item-loan input[type="submit"],
+.pane-ding-item-list .item-loan input[type="button"],
+.pane-ding-related-items .item-loan button,
+.pane-ding-related-items .item-loan input[type="reset"],
 .pane-ding-related-items .item-loan input[type="submit"],
 .pane-ding-related-items .item-loan input[type="button"],
 .ding_nodelist-taxonomy .item-details .item-title a,
@@ -786,7 +787,8 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   z-index: 51;
 }
 
-.responsive-layout-mobile .pane-loans .renew-loan-button input {
+.responsive-layout-mobile .pane-loans .renew-loan-button input,
+.pane-loans .renew-loan-button input {
   color: #fff;
 }
 
