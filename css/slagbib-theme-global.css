@@ -805,3 +805,9 @@ ul.ui-autocomplete {
   margin-left: 0;
   margin-right: 0;
 }
+
+.field-content.event-image,
+.field-content.news-image {
+  min-height: 70px;
+  float: left;
+}
