@@ -58,14 +58,19 @@ h2 {
   display: none;
 }
 
+.site-name-slogan {
+  float: none;
+}
+
 .site-name-slogan .site-name a {
   background: url(../images/slagbib-title.png) no-repeat scroll 0 0 transparent;
+  background-size: contain;
   direction: ltr;
   display: block;
   height: 85px;
   margin: 0 0 11px 10px;
   text-indent: -900px;
-  width: 445px;
+  max-width: 445px;
 }
 
 /* Color settings */
@@ -488,7 +493,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .ding_nodelist-slider .prev,
 .ting-search-carousel .rs-carousel-action-prev {
-  background-position: -60px 0 !important;
+  background-position: -60px 0;
 }
 
 .page-ting-object .expanded-properties {
@@ -759,4 +764,27 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .responsive-layout-mobile .pane-loans .renew-loan-button input {
   color: #fff;
+}
+
+.responsive-layout-mobile .ding_nodelist-slider .next,
+.responsive-layout-mobile .ding_nodelist-slider .prev {
+  background-image: url(../images/vert-slider-sprite-mobile.png);
+}
+
+.block-search-form form input[name="search_block_form"],
+.block-search-form form .ui-autocomplete-input {
+  background: #fff;
+}
+
+.page-ting-object .grid-3 .pane-ting-object-ding-availability-holdings .holdings {
+  background: #813389;
+}
+
+.page-taxonomy-term .pane-taxonomy-term .term-title,
+.ding_nodelist-taxonomy h2.ding_nodelist-title {
+  color: #813389;
+}
+
+.block-user-menu ul li a {
+  line-height: 24px;
 }
