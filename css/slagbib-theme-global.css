@@ -811,3 +811,9 @@ ul.ui-autocomplete {
   min-height: 70px;
   float: left;
 }
+
+.ui-dialog .field-name-ting-author a,
+.ui-dialog .field-name-ting-author a:link,
+.ui-dialog .reservation-link-ajax a {
+  color: #000;
+}
