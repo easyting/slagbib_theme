@@ -817,3 +817,7 @@ ul.ui-autocomplete {
 .ui-dialog .reservation-link-ajax a {
   color: #000;
 }
+
+.share {
+  margin-top: 10px;
+}
