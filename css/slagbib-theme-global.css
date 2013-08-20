@@ -436,6 +436,11 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 /* Background images */
 
+.responsive-layout-mobile .ding_nodelist-slider .next,
+.responsive-layout-mobile .ding_nodelist-slider .prev {
+  background-image: url(../images/vert-slider-sprite-mobile.png);
+}
+
 .zone-header {
   background: #803789;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#803789', endColorstr='#51185d');
@@ -507,14 +512,16 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 /* Background positions */
 
-.ding_nodelist-slider .next,
-.ting-search-carousel .rs-carousel-action-next {
+.ding_nodelist-horizontal_accordion .ding_nodelist-items .expand a {
   background-position: -90px 0;
 }
 
-.ding_nodelist-slider .prev,
-.ting-search-carousel .rs-carousel-action-prev {
-  background-position: -60px 0 !important;
+.ding_nodelist-horizontal_accordion .ding_nodelist-items .slide-open .expand a {
+  background-position: -150px 0;
+}
+
+.ting-search-carousel .rs-carousel-action-next {
+  background-position: -90px 0;
 }
 
 .page-ting-object .expanded-properties {
