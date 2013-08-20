@@ -73,6 +73,12 @@ h2 {
   width: 445px;
 }
 
+.responsive-layout-mobile .site-name-slogan .site-name a {
+  background: none;
+  text-indent: 0;
+  width: auto;
+}
+
 /* Color settings */
 
 .block-ding-library-library-address {
