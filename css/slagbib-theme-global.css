@@ -726,11 +726,6 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   font-size: 18px;
 }
 
-.responsive-layout-mobile .user-menu-expand,
-.responsive-layout-mobile .block-user-login {
-  right: 0;
-}
-
 .responsive-layout-mobile .user-menu-expand {
   background: url(../images/user-icon.png) no-repeat center center #52195e;
 }
@@ -739,7 +734,8 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .responsive-layout-mobile .block-user-login .block-inner,
 .responsive-layout-mobile .block-main-menu .content > ul > li > a,
 .responsive-layout-mobile .pane-reservations .op-reservations .delete-reservations,
-.responsive-layout-mobile .pane-reservations .op-reservations .update-reservations {
+.responsive-layout-mobile .pane-reservations .op-reservations .update-reservations,
+.block-user-menu.even {
   background-color: #52195e;
 }
 
@@ -747,16 +743,6 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .responsive-layout-mobile .sidebar-menu-expand,
 .responsive-layout-mobile .secondary-tabs ul.secondary a.active {
   background-color: #35123c;
-}
-
-.responsive-layout-mobile .block-ding-user-frontend-ding-username,
-.responsive-layout-mobile .block-system-user-menu,
-.responsive-layout-mobile .block-ding-user-frontend-ding-user-loan-number {
-  right: 0;
-}
-
-.responsive-layout-mobile .block-system-user-menu.even {
-  top: 73px;
 }
 
 .responsive-layout-mobile .block-user-login .block-inner .content {
