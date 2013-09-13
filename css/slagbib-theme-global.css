@@ -146,7 +146,7 @@ h2 {
 .page-taxonomy-term.responsive-layout-mobile .view-taxonomy-term .item-list .pager-current,
 .responsive-layout-mobile .search-results-tabs ul.primary li a,
 .responsive-layout-mobile .search-results-tabs ul.primary li a:hover,
-.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page a,
+.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page .pane-content a,
 .responsive-layout-mobile .secondary-tabs ul.secondary li a,
 .responsive-layout-mobile .pane-loans .operations .renew-loan-button input,
 .responsive-layout-mobile .edit-user-profile .form-submit,
@@ -314,9 +314,11 @@ ul.ui-autocomplete li .ui-corner-all:hover,
 ul.ui-autocomplete li.ui-menu-item:hover,
 .node-type-ding-event .event-short-info .views-field-field-category a,
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
-.node-type-ding-event .event-short-info .views-field-field-event-date,
+.node-type-ding-event .event-short-info .views-field-field-event-date .con,
 .node-type-ding-news .news-short-info .views-field-field-editorial-base-n a,
-.ding_nodelist-single .ding_nodelist-items .category a {
+.ding_nodelist-single .ding_nodelist-items .category a,
+.node-type-ding-event .event-short-info .views-field-field-event-date .field-content,
+.node-type-ding-event .event-short-info .views-field-field-event-fee {
   background: #81328b;
   color: #fff;
 }
@@ -735,8 +737,12 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .responsive-layout-mobile .block-main-menu .content > ul > li > a,
 .responsive-layout-mobile .pane-reservations .op-reservations .delete-reservations,
 .responsive-layout-mobile .pane-reservations .op-reservations .update-reservations,
-.block-user-menu.even {
+.responsive-layout-mobile .block-user-menu.even {
   background-color: #52195e;
+}
+
+.block-ding-username h2.block-title {
+  padding-left: 0;
 }
 
 .responsive-layout-mobile .block-main-menu .content ul li.active > a,
