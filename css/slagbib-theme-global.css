@@ -745,6 +745,10 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   padding-left: 0;
 }
 
+.responsive-layout-mobile .block-ding-username h2.block-title {
+  padding-left: 25px;
+}
+
 .responsive-layout-mobile .block-main-menu .content ul li.active > a,
 .responsive-layout-mobile .sidebar-menu-expand,
 .responsive-layout-mobile .secondary-tabs ul.secondary a.active {
