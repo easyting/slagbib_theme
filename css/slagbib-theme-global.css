@@ -28,6 +28,11 @@ h2 {
   overflow: hidden;
 }
 
+.block-ding-username h2.block-title {
+  background: none;
+  padding-left: 0;
+}
+
 .logo-img {
   float: right;
 }
@@ -489,6 +494,8 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   background-image: url(../images/more-button-active.png);
 }
 
+.block-ding-user-frontend
+
 .block-ding-user-frontend-ding-username h2,
 .block-user-login .block-title {
   background-image: url(../images/login-arrow.png);
@@ -644,6 +651,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .block-user-login .block-title {
   display: none;
+  min-height: 34px;
 }
 
 .ding_nodelist-vertical_accordion .event-day {
@@ -741,12 +749,12 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   background-color: #52195e;
 }
 
-.block-ding-username h2.block-title {
-  padding-left: 0;
-}
-
 .responsive-layout-mobile .block-ding-username h2.block-title {
+  background: url(../images/white-menu-arrow.png) 10px 18px no-repeat;
   padding-left: 25px;
+}
+.responsive-layout-narrow .block-ding-username h2.block-title {
+  padding-left: 10px;
 }
 
 .responsive-layout-mobile .block-main-menu .content ul li.active > a,
@@ -767,6 +775,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .responsive-layout-mobile .block-ding-user-frontend-ding-username {
   z-index: 49;
+  min-height: 50px;
 }
 
 .responsive-layout-mobile.page-libraries .pane-page-title,
