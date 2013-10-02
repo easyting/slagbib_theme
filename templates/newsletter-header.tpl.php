@@ -1,5 +1,5 @@
 <?php
-  $image_path = url(drupal_get_path('module', 'emailkanon') . '/templates', array('absolute' => TRUE, 'language' => FALSE));
+  $image_path = url(drupal_get_path('theme', $GLOBALS['theme']), array('absolute' => TRUE, 'language' => FALSE));
 ?>
 <table style="border-collapse: collapse; background-color: #6c2a76;" width="600" border="0" cellpadding="0" cellspacing="0">
   <tbody>
@@ -11,7 +11,7 @@
     <tr>
       <td style="border-collapse: collapse;" width="15"><br></td>
       <td style="border-collapse: collapse;" valign="middle" width="600">
-        <img src="<?php echo $image_path; ?>/images/slagbib-logo.png" alt="<?php echo variable_get('site_name', ''); ?>">
+        <img src="<?php echo $image_path; ?>/images/newsletter-logo.png" alt="<?php echo variable_get('site_name', ''); ?>">
       </td>
       <td style="border-collapse: collapse;" valign="middle">
 

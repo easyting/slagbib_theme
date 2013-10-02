@@ -306,7 +306,7 @@
 <table style="border-collapse: collapse" border="0" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <td style="border-collapse: collapse; background-color: #37a29d;" height="8" width="600" bgcolor="#37a29d"><br></td>
+      <td style="border-collapse: collapse; background-color: #813389;" height="8" width="600" bgcolor="#813389"><br></td>
     </tr>
     <tr>
       <td style="border-collapse: collapse;" height="8" width="600" bgcolor="#ffffff"><br></td>
