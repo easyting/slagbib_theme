@@ -1,5 +1,5 @@
 <?php
-  $image_path = url(drupal_get_path('module', 'emailkanon') . '/templates', array('absolute' => TRUE, 'language' => FALSE));
+  $image_path = url(drupal_get_path('theme', $GLOBALS['theme']), array('absolute' => TRUE, 'language' => FALSE));
 ?>
 <table style="border-collapse: collapse" border="0" cellpadding="0" cellspacing="0">
   <tbody>
@@ -73,7 +73,7 @@
     </tr>
     <tr>
       <td style="border-collapse: collapse;">
-        <img src="<?php echo $image_path; ?>/images/shadow-full.gif" alt="shadow-full" style="outline: none; text-decoration: none; display: block;" height="16" width="600">
+        <img src="<?php echo $image_path; ?>/images/emailkanon/shadow-full.gif" alt="shadow-full" style="outline: none; text-decoration: none; display: block;" height="16" width="600">
       </td>
     </tr>
   </tbody>
@@ -168,7 +168,7 @@
       </td>
     </tr>
     <tr>
-      <td style="border-collapse:collapse"><img src="<?php echo $image_path; ?>/images/shadow-full.gif" alt="shadow-full" style="outline:none;text-decoration:none;display:block" height="16" width="600"></td>
+      <td style="border-collapse:collapse"><img src="<?php echo $image_path; ?>/images/emailkanon/shadow-full.gif" alt="shadow-full" style="outline:none;text-decoration:none;display:block" height="16" width="600"></td>
     </tr>
   </tbody>
 </table>
@@ -295,7 +295,7 @@
     </tr>
     <tr>
       <td style="border-collapse:collapse">
-        <img src="<?php echo $image_path; ?>/images/shadow-full.gif" alt="shadow-full" style="outline:none;text-decoration:none;display:block" height="16" width="600">
+        <img src="<?php echo $image_path; ?>/images/emailkanon/shadow-full.gif" alt="shadow-full" style="outline:none;text-decoration:none;display:block" height="16" width="600">
       </td>
     </tr>
   </tbody>
@@ -343,7 +343,7 @@
     </tr>
     <tr>
       <td style="border-collapse: collapse;">
-        <img src="<?php echo $image_path; ?>/images/shadow-full.gif" alt="shadow-full" style="outline: none; text-decoration: none; display: block;" height="16" width="600">
+        <img src="<?php echo $image_path; ?>/images/emailkanon/shadow-full.gif" alt="shadow-full" style="outline: none; text-decoration: none; display: block;" height="16" width="600">
       </td>
     </tr>
   </tbody>
