@@ -11,7 +11,7 @@
     <tr>
       <td style="border-collapse: collapse;" width="15"><br></td>
       <td style="border-collapse: collapse;" valign="middle" width="600">
-        <img src="<?php echo $image_path; ?>/images/newsletter-logo.png" alt="<?php echo variable_get('site_name', ''); ?>">
+        <img src="<?php echo $image_path; ?>/images/emailkanon/logo.png" alt="<?php echo variable_get('site_name', ''); ?>">
       </td>
       <td style="border-collapse: collapse;" valign="middle">
 
