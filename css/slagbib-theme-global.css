@@ -2,7 +2,6 @@
 body {
   background: #dbdbdb;
   font-family: 'Soho Gothic W01 Regular', Helvetica, Arial, sans-serif;
-  font-size: 11px;
   line-height: 15px;
 }
 
@@ -27,6 +26,11 @@ h2 {
 
 .block-ding-user-frontend-ding-username h2 {
   overflow: hidden;
+}
+
+.block-ding-username h2.block-title {
+  background: none;
+  padding-left: 0;
 }
 
 .logo-img {
@@ -72,6 +76,12 @@ h2 {
   margin: 0 0 11px 10px;
   text-indent: -900px;
   width: 445px;
+}
+
+.responsive-layout-mobile .site-name-slogan .site-name a {
+  background: none;
+  text-indent: 0;
+  width: auto;
 }
 
 /* Color settings */
@@ -141,7 +151,7 @@ h2 {
 .page-taxonomy-term.responsive-layout-mobile .view-taxonomy-term .item-list .pager-current,
 .responsive-layout-mobile .search-results-tabs ul.primary li a,
 .responsive-layout-mobile .search-results-tabs ul.primary li a:hover,
-.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page a,
+.page-search-ting.responsive-layout-mobile .pane-ting-search-records-per-page .pane-content a,
 .responsive-layout-mobile .secondary-tabs ul.secondary li a,
 .responsive-layout-mobile .pane-loans .operations .renew-loan-button input,
 .responsive-layout-mobile .edit-user-profile .form-submit,
@@ -219,7 +229,6 @@ a:link, a:visited, a:hover,
 .ding-periodical-foldable .item-list ul.ding-periodical-foldable li:hover,
 .pane-loans .operations .renew-loan-button input,
 .pane-reservations .delete-reservation input,
-.pane-loans .renew-loan-button input,
 .edit-user-profile .form-submit,
 .edit-user-profile label .form-required,
 .edit-user-profile input,
@@ -229,8 +238,10 @@ a:link, a:visited, a:hover,
 .page-search-meta .mkdru-pager span,
 .pane-ting-object-ting-reference-reverse .node-title a,
 .pane-ding-item-list .item-loan button, .pane-ding-item-list .item-loan input[type="reset"],
-.pane-ding-item-list .item-loan input[type="submit"], .pane-ding-item-list .item-loan input[type="button"],
-.pane-ding-related-items .item-loan button, .pane-ding-related-items .item-loan input[type="reset"],
+.pane-ding-item-list .item-loan input[type="submit"],
+.pane-ding-item-list .item-loan input[type="button"],
+.pane-ding-related-items .item-loan button,
+.pane-ding-related-items .item-loan input[type="reset"],
 .pane-ding-related-items .item-loan input[type="submit"],
 .pane-ding-related-items .item-loan input[type="button"],
 .ding_nodelist-taxonomy .item-details .item-title a,
@@ -308,9 +319,11 @@ ul.ui-autocomplete li .ui-corner-all:hover,
 ul.ui-autocomplete li.ui-menu-item:hover,
 .node-type-ding-event .event-short-info .views-field-field-category a,
 .node-type-ding-event .event-short-info .views-field-field-event-fee,
-.node-type-ding-event .event-short-info .views-field-field-event-date,
+.node-type-ding-event .event-short-info .views-field-field-event-date .con,
 .node-type-ding-news .news-short-info .views-field-field-editorial-base-n a,
-.ding_nodelist-single .ding_nodelist-items .category a {
+.ding_nodelist-single .ding_nodelist-items .category a,
+.node-type-ding-event .event-short-info .views-field-field-event-date .field-content,
+.node-type-ding-event .event-short-info .views-field-field-event-fee {
   background: #81328b;
   color: #fff;
 }
@@ -436,6 +449,11 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 /* Background images */
 
+.responsive-layout-mobile .ding_nodelist-slider .next,
+.responsive-layout-mobile .ding_nodelist-slider .prev {
+  background-image: url(../images/vert-slider-sprite-mobile.png);
+}
+
 .zone-header {
   background: #803789;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#803789', endColorstr='#51185d');
@@ -507,14 +525,16 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 /* Background positions */
 
-.ding_nodelist-slider .next,
-.ting-search-carousel .rs-carousel-action-next {
+.ding_nodelist-horizontal_accordion .ding_nodelist-items .expand a {
   background-position: -90px 0;
 }
 
-.ding_nodelist-slider .prev,
-.ting-search-carousel .rs-carousel-action-prev {
-  background-position: -60px 0 !important;
+.ding_nodelist-horizontal_accordion .ding_nodelist-items .slide-open .expand a {
+  background-position: -150px 0;
+}
+
+.ting-search-carousel .rs-carousel-action-next {
+  background-position: -90px 0;
 }
 
 .page-ting-object .expanded-properties {
@@ -629,6 +649,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .block-user-login .block-title {
   display: none;
+  min-height: 34px;
 }
 
 .ding_nodelist-vertical_accordion .event-day {
@@ -713,11 +734,6 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   font-size: 18px;
 }
 
-.responsive-layout-mobile .user-menu-expand,
-.responsive-layout-mobile .block-user-login {
-  right: 0;
-}
-
 .responsive-layout-mobile .user-menu-expand {
   background: url(../images/user-icon.png) no-repeat center center #52195e;
 }
@@ -726,24 +742,23 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .responsive-layout-mobile .block-user-login .block-inner,
 .responsive-layout-mobile .block-main-menu .content > ul > li > a,
 .responsive-layout-mobile .pane-reservations .op-reservations .delete-reservations,
-.responsive-layout-mobile .pane-reservations .op-reservations .update-reservations {
+.responsive-layout-mobile .pane-reservations .op-reservations .update-reservations,
+.responsive-layout-mobile .block-user-menu.even {
   background-color: #52195e;
+}
+
+.responsive-layout-mobile .block-ding-username h2.block-title {
+  background: url(../images/white-menu-arrow.png) 10px 18px no-repeat;
+  padding-left: 25px;
+}
+.responsive-layout-narrow .block-ding-username h2.block-title {
+  padding-left: 10px;
 }
 
 .responsive-layout-mobile .block-main-menu .content ul li.active > a,
 .responsive-layout-mobile .sidebar-menu-expand,
 .responsive-layout-mobile .secondary-tabs ul.secondary a.active {
   background-color: #35123c;
-}
-
-.responsive-layout-mobile .block-ding-user-frontend-ding-username,
-.responsive-layout-mobile .block-system-user-menu,
-.responsive-layout-mobile .block-ding-user-frontend-ding-user-loan-number {
-  right: 0;
-}
-
-.responsive-layout-mobile .block-system-user-menu.even {
-  top: 73px;
 }
 
 .responsive-layout-mobile .block-user-login .block-inner .content {
@@ -758,6 +773,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .responsive-layout-mobile .block-ding-user-frontend-ding-username {
   z-index: 49;
+  min-height: 50px;
 }
 
 .responsive-layout-mobile.page-libraries .pane-page-title,
@@ -787,7 +803,8 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   z-index: 51;
 }
 
-.responsive-layout-mobile .pane-loans .renew-loan-button input {
+.responsive-layout-mobile .pane-loans .renew-loan-button input,
+.pane-loans .renew-loan-button input {
   color: #fff;
 }
 
@@ -803,4 +820,20 @@ ul.ui-autocomplete {
 .no-js .block-ding-user-frontend-ding-username .block-inner > .content > div {
   margin-left: 0;
   margin-right: 0;
+}
+
+.field-content.event-image,
+.field-content.news-image {
+  min-height: 70px;
+  float: left;
+}
+
+.ui-dialog .field-name-ting-author a,
+.ui-dialog .field-name-ting-author a:link,
+.ui-dialog .reservation-link-ajax a {
+  color: #000;
+}
+
+.share {
+  margin-top: 10px;
 }

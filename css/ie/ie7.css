@@ -31,6 +31,10 @@
   margin-top: -25px;
 }
 
+ul.ui-autocomplete {
+  max-width: 495px !important;
+}
+
 .block-search-form form .ui-autocomplete-input {
   overflow: hidden;
   width: 430px;
@@ -42,4 +46,16 @@
 
 .responsive-layout-narrow section.block-system-user-menu {
   background: transparent;
+}
+
+#search-block-form .form-item-search-block-form input[type="text"] {
+  width: 437px;
+}
+
+#search-block-form .form-submit {
+  right: -85px;
+}
+
+.block-search-form form .ui-autocomplete-input[type="text"] {
+  line-height: 24px;
 }
