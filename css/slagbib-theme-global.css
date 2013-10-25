@@ -715,11 +715,6 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   display: none;
 }
 
-.block-main-menu .content > .expanded-menu {
-  height: 28px;
-  overflow: initial;
-}
-
 /* Mobile styles */
 .responsive-layout-mobile .zone-header,
 .responsive-layout-mobile .region-menu {
