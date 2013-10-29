@@ -169,7 +169,9 @@ h2 {
 .responsive-layout-mobile .ding_nodelist-single .ding_nodelist-items .more a,
 .responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a,
 .pane-ting-object-voxb-tags .tag a:hover,
-.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit,
+.field-type-ding-item-list-field .ding-item-list-title,
+.node-type-ding-event .event-short-info .views-field-group-audience .field-content {
   background-color: #813389;
 }
 
