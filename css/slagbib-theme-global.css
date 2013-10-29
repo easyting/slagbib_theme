@@ -90,6 +90,7 @@ h2 {
   background-color: #4b1755;
 }
 
+.page-user .user-page-tabs ul.primary > li > a,
 .ding_nodelist-horizontal_accordion .ding_nodelist-items .item .label,
 .ding_nodelist-carousel .ding_nodelist-items .item .event-label,
 .ding_nodelist-single .ding_nodelist-items .item .event-label,
@@ -172,6 +173,7 @@ h2 {
   background-color: #813389;
 }
 
+.page-user .user-page-tabs ul.primary > li.active a + ul a,
 .ding_nodelist-single .ding_nodelist-items .more a,
 a:link, a:visited, a:hover,
 .ting-search-carousel .ting-search-results .info,
