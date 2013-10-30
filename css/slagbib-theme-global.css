@@ -56,6 +56,10 @@ h2 {
   margin-bottom: 0;
 }
 
+.responsive-layout-mobile #zone-menu-wrapper {
+  margin-top: 0;
+}
+
 .region-page-top {
   margin: 0;
 }
@@ -654,6 +658,33 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .block-user-login .block-title {
   display: none;
   min-height: 34px;
+}
+
+.block-ding-user-loan-number {
+  right: 0;
+}
+
+.block-system-user-menu, .block-user-menu {
+  right: 0;
+  background-color: #52195E;
+}
+
+.responsive-layout-narrow .block-ding-user-frontend-ding-user-loan-number {
+  width: 180px;
+  top: -40px;
+}
+
+.responsive-layout-narrow .block-ding-username {
+  top: -100px;
+}
+
+.responsive-layout-narrow .block-system-user-menu {
+  width: 190px;
+  top: 50px;
+}
+
+.responsive-layout-narrow .block-system-user-menu.even {
+  top: -60px;
 }
 
 .ding_nodelist-vertical_accordion .event-day {
