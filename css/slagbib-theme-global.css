@@ -94,6 +94,7 @@ h2 {
   background-color: #4b1755;
 }
 
+.pane-category-menu-fold .item-list > ul > li > a,
 .page-user .user-page-tabs ul.primary > li > a,
 .ding_nodelist-horizontal_accordion .ding_nodelist-items .item .label,
 .ding_nodelist-carousel .ding_nodelist-items .item .event-label,
@@ -179,6 +180,7 @@ h2 {
   background-color: #813389;
 }
 
+.pane-category-menu-fold .more-link a,
 .page-user .user-page-tabs ul.primary > li.active a + ul a,
 .ding_nodelist-single .ding_nodelist-items .more a,
 a:link, a:visited, a:hover,
@@ -410,6 +412,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   background-color: #e2e2e2;
 }
 
+.pane-category-menu-fold .item-list > ul > li > a.active,
 .search-results-tabs ul.primary li.active a.active,
 .pane-page-tabs.search-results-tabs ul.primary li a.active:hover,
 .pane-category-menu ul li a.active,
