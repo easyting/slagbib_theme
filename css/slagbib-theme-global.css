@@ -282,7 +282,9 @@ a:link, a:visited, a:hover,
 }
 
 .block-search-form form .extendsearch-advanced .form-item input:active,
-.block-search-form form .extendsearch-advanced .form-item input:focus {
+.block-search-form form .extendsearch-advanced .form-item input:focus,
+.block-search-form form .extendsearch-advanced .form-item select:active,
+.block-search-form form .extendsearch-advanced .form-item select:focus {
   background: #cb9fd1;
   border: none;
 }
@@ -301,6 +303,7 @@ a:link, a:visited, a:hover,
 
 .block-search-form form .ui-autocomplete-input,
 .block-search-form form .extendsearch-advanced input[type="text"],
+.block-search-form form .extendsearch-advanced select,
 .no-js .block-search-form form .form-item input[type="text"],
 .block-search-form form input[name="search_block_form"] {
   background-color: #fff;
@@ -345,6 +348,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .site-name-slogan .site-name a,
 .block-search-form form .form-item,
+.block-search-form form .extendsearch-advanced label,
 .block-ding-user-frontend-ding-username h2,
 .block-ding-user-frontend-ding-username h2 span,
 .block-main-menu .content ul li ul.menu li.active a,
