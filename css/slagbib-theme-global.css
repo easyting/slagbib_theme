@@ -285,7 +285,7 @@ a:link, a:visited, a:hover,
 .block-search-form form .extendsearch-advanced .form-item input:focus,
 .block-search-form form .extendsearch-advanced .form-item select:active,
 .block-search-form form .extendsearch-advanced .form-item select:focus {
-  background: #cb9fd1;
+  background-color: #cb9fd1;
   border: none;
 }
 
@@ -874,4 +874,21 @@ ul.ui-autocomplete {
 
 .share {
   margin-top: 10px;
+}
+
+.block-search-form form .extendsearch-advanced .fieldset-wrapper label {
+  width: 35%;
+}
+
+.block-search-form form .extendsearch-advanced .fieldset-wrapper input,
+.block-search-form form .extendsearch-advanced .fieldset-wrapper select {
+  width: 65%;
+}
+
+.block-search-form form .extendsearch-advanced .single-line label {
+  width: 15%;
+}
+
+.block-search-form form .extendsearch-advanced .single-line input {
+  width: 85%;
 }
