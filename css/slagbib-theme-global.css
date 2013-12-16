@@ -56,6 +56,10 @@ h2 {
   margin-bottom: 0;
 }
 
+.responsive-layout-mobile #zone-menu-wrapper {
+  margin-top: 0;
+}
+
 .region-page-top {
   margin: 0;
 }
@@ -90,6 +94,9 @@ h2 {
   background-color: #4b1755;
 }
 
+.pane-category-menu-fold .item-list > ul > li > a,
+.pane-ding-item-list-recommendations .pane-title,
+.page-user .user-page-tabs ul.primary > li > a,
 .ding_nodelist-horizontal_accordion .ding_nodelist-items .item .label,
 .ding_nodelist-carousel .ding_nodelist-items .item .event-label,
 .ding_nodelist-single .ding_nodelist-items .item .event-label,
@@ -168,10 +175,14 @@ h2 {
 .responsive-layout-mobile .ding_nodelist-single .ding_nodelist-items .more a,
 .responsive-layout-mobile .ding_nodelist-carousel .ding_nodelist-items .more a,
 .pane-ting-object-voxb-tags .tag a:hover,
-.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit {
+.responsive-layout-mobile .pane-emailkanon-emailkanon-subscribe-block .form-submit,
+.field-type-ding-item-list-field .ding-item-list-title,
+.node-type-ding-event .event-short-info .views-field-group-audience .field-content {
   background-color: #813389;
 }
 
+.pane-category-menu-fold .more-link a,
+.page-user .user-page-tabs ul.primary > li.active a + ul a,
 .ding_nodelist-single .ding_nodelist-items .more a,
 a:link, a:visited, a:hover,
 .ting-search-carousel .ting-search-results .info,
@@ -271,8 +282,10 @@ a:link, a:visited, a:hover,
 }
 
 .block-search-form form .extendsearch-advanced .form-item input:active,
-.block-search-form form .extendsearch-advanced .form-item input:focus {
-  background: #cb9fd1;
+.block-search-form form .extendsearch-advanced .form-item input:focus,
+.block-search-form form .extendsearch-advanced .form-item select:active,
+.block-search-form form .extendsearch-advanced .form-item select:focus {
+  background-color: #cb9fd1;
   border: none;
 }
 
@@ -290,6 +303,7 @@ a:link, a:visited, a:hover,
 
 .block-search-form form .ui-autocomplete-input,
 .block-search-form form .extendsearch-advanced input[type="text"],
+.block-search-form form .extendsearch-advanced select,
 .no-js .block-search-form form .form-item input[type="text"],
 .block-search-form form input[name="search_block_form"] {
   background-color: #fff;
@@ -334,6 +348,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .site-name-slogan .site-name a,
 .block-search-form form .form-item,
+.block-search-form form .extendsearch-advanced label,
 .block-ding-user-frontend-ding-username h2,
 .block-ding-user-frontend-ding-username h2 span,
 .block-main-menu .content ul li ul.menu li.active a,
@@ -402,6 +417,7 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   background-color: #e2e2e2;
 }
 
+.pane-category-menu-fold .item-list > ul > li > a.active,
 .search-results-tabs ul.primary li.active a.active,
 .pane-page-tabs.search-results-tabs ul.primary li a.active:hover,
 .pane-category-menu ul li a.active,
@@ -652,6 +668,33 @@ ul.ui-autocomplete li.ui-menu-item:hover,
   min-height: 34px;
 }
 
+.block-ding-user-loan-number {
+  right: 0;
+}
+
+.block-system-user-menu, .block-user-menu {
+  right: 0;
+  background-color: #52195E;
+}
+
+.responsive-layout-narrow .block-ding-user-frontend-ding-user-loan-number {
+  width: 180px;
+  top: -40px;
+}
+
+.responsive-layout-narrow .block-ding-username {
+  top: -100px;
+}
+
+.responsive-layout-narrow .block-system-user-menu {
+  width: 190px;
+  top: 50px;
+}
+
+.responsive-layout-narrow .block-system-user-menu.even {
+  top: -60px;
+}
+
 .ding_nodelist-vertical_accordion .event-day {
   font: 24px/24px 'Soho Gothic W01 Bold', Helvetica, Arial, sans-serif;
   margin: 0;
@@ -713,11 +756,6 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 
 .block-main-menu .content ul li ul {
   display: none;
-}
-
-.block-main-menu .content > .expanded-menu {
-  height: 28px;
-  overflow: initial;
 }
 
 /* Mobile styles */
@@ -836,4 +874,21 @@ ul.ui-autocomplete {
 
 .share {
   margin-top: 10px;
+}
+
+.block-search-form form .extendsearch-advanced .fieldset-wrapper label {
+  width: 35%;
+}
+
+.block-search-form form .extendsearch-advanced .fieldset-wrapper input,
+.block-search-form form .extendsearch-advanced .fieldset-wrapper select {
+  width: 65%;
+}
+
+.block-search-form form .extendsearch-advanced .single-line label {
+  width: 15%;
+}
+
+.block-search-form form .extendsearch-advanced .single-line input {
+  width: 85%;
 }
