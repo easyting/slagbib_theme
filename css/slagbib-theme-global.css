@@ -912,3 +912,7 @@ ul.ui-autocomplete {
 .ui-widget .form-type-select {
   margin-bottom: 10px;
 }
+
+.ui-widget .form-required {
+  color: #f00;
+}
