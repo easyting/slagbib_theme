@@ -891,3 +891,24 @@ ul.ui-autocomplete {
 .block-search-form form .extendsearch-advanced .single-line input {
   width: 85%;
 }
+
+/* Popup colors */
+.ui-dialog span,
+.ui-widget label,
+.ui-widget .form-submit,
+.ui-widget .description,
+.ui-widget-content {
+  color: #fff;
+}
+
+.ui-widget .description {
+  margin-top: 10px;
+}
+
+.ui-widget-header .ui-icon {
+  background-image: url(../images/ui-icons_ffffff_256x240.png);
+}
+
+.ui-widget .form-type-select {
+  margin-bottom: 10px;
+}
