@@ -21,9 +21,7 @@
       <td style="border-collapse: collapse;" width="15"><br></td>
       <td style="border-collapse: collapse;" align="right">
         <p style="font-size: 13px; line-height: 15px; font-family: Helvetica, Arial, sans-serif; margin: 0; color: #fff; padding: 0">
-          <a href="<?php echo url('', array('absolute' => TRUE, 'language' => FALSE)) . $links['unsubscribe']; ?>" style="color: #fff;">
-            <?php echo t('Unsubscribe'); ?>
-          </a>
+          <a href="{{unsubscribe_url}}" style="color: #fff;"><?php echo t('Unsubscribe'); ?></a>
         </p>
       </td>
       <td style="border-collapse: collapse;" width="15"><br></td>
