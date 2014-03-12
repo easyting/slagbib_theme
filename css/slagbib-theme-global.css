@@ -337,7 +337,10 @@ ul.ui-autocomplete li.ui-menu-item:hover,
 .node-type-ding-news .news-short-info .views-field-field-editorial-base-n a,
 .ding_nodelist-single .ding_nodelist-items .category a,
 .node-type-ding-event .event-short-info .views-field-field-event-date .field-content,
-.node-type-ding-event .event-short-info .views-field-field-event-fee {
+.node-type-ding-event .event-short-info .views-field-field-event-fee,
+.views-field-field-address .street-block,
+.views-field-field-address .addressfield-container-inline,
+.views-field-field-address .country {
   background: #81328b;
   color: #fff;
 }
