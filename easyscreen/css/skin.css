@@ -1,9 +1,54 @@
+@font-face {
+    font-family: 'glober_regularregular';
+    src: url('../fonts/Glober_Regular-webfont.eot');
+    src: url('../fonts/Glober_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Glober_Regular-webfont.woff') format('woff'),
+         url('../fonts/Glober_Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Glober_Regular-webfont.svg#glober_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'globerbold';
+    src: url('../fonts/Glober_Bold-webfont.eot');
+    src: url('../fonts/Glober_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Glober_Bold-webfont.woff') format('woff'),
+         url('../fonts/Glober_Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Glober_Bold-webfont.svg#globerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'globerbold_italic';
+    src: url('Glober_Bold_Italic-webfont.eot');
+    src: url('Glober_Bold_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Glober_Bold_Italic-webfont.woff') format('woff'),
+         url('Glober_Bold_Italic-webfont.ttf') format('truetype'),
+         url('Glober_Bold_Italic-webfont.svg#globerbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'globerxbold';
+    src: url('../fonts/Glober_xBold-webfont.eot');
+    src: url('../fonts/Glober_xBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Glober_xBold-webfont.woff') format('woff'),
+         url('../fonts/Glober_xBold-webfont.ttf') format('truetype'),
+         url('../fonts/Glober_xBold-webfont.svg#globerxbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Theme main styles */
 body {
   background: url('../img/screen-bg.jpg') no-repeat center;
   color: #252525;
   font-size: 22px;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'glober_regularregular', sans-serif;
 }
 
 /* Header styles */
