@@ -10,9 +10,15 @@ body {
 .header-ct-container {
   position: relative;
   background: #803789;
-  background: -webkit-gradient(linear, left top, left bottom, from(#803789), to(#51185d));
-  background: -moz-linear-gradient(top,  #803789,  #51185d);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#803789', endColorstr='#51185d');
+  background-image: url('../img/header-logo.png'); /* fallback */
+  background-image: url('../img/header-logo.png'), -webkit-gradient(linear, left top, left bottom, from(#803789), to(#51185d)); /* Saf4+, Chrome */
+  background-image: url('../img/header-logo.png'), -webkit-linear-gradient(top, #803789, #51185d); /* Chrome 10+, Saf5.1+ */
+  background-image: url('../img/header-logo.png'),    -moz-linear-gradient(top, #803789, #51185d); /* FF3.6+ */
+  background-image: url('../img/header-logo.png'),     -ms-linear-gradient(top, #803789, #51185d); /* IE10 */
+  background-image: url('../img/header-logo.png'),      -o-linear-gradient(top, #803789, #51185d); /* Opera 11.10+ */
+  background-image: url('../img/header-logo.png'),         linear-gradient(to bottom, #803789, #51185d); /* W3C */
+  background-repeat: no-repeat;
+  background-position: 91% 50%;
 }
 
 .section-container div.title {
