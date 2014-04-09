@@ -63,7 +63,7 @@ body {
   background-image: url('../img/header-logo.png'),      -o-linear-gradient(top, #803789, #51185d); /* Opera 11.10+ */
   background-image: url('../img/header-logo.png'),         linear-gradient(to bottom, #803789, #51185d); /* W3C */
   background-repeat: no-repeat;
-  background-position: 91% 50%;
+  background-position: 90% 50%;
 }
 
 .section-container div.title {
@@ -106,7 +106,7 @@ body {
   display: block;
   float: right;
   width: 113px;
-  height: 88px;
+  height: 100%;
   background: url('../img/search-icon.png') no-repeat center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -182,4 +182,10 @@ body {
   -webkit-box-shadow: 0 2px 5px 0 #999;
   -moz-box-shadow: 0 2px 5px 0 #999;
   box-shadow: 0 2px 5px 0 #999;
+}
+
+/* Header */
+.section-container.row1 {
+  height: auto;
+  min-height: 110px;
 }
