@@ -155,6 +155,7 @@ body {
   border: 1px solid #4a5660;
   background-color: #fff;
   text-indent: -1000em;
+  display: none;
 }
 
 .column3.row1 div.rss-ct-container,
@@ -176,7 +177,12 @@ body {
   font-size: 30px;
 }
 
-.section-container.row4 {
+.section-container.row5 {
+  height: 80%;
+}
+
+.section-container.row4,
+.section-container.row5 {
   border: 1px solid #a1b0b9;
   background-color: rgba(255, 255, 255, 1) !important;
   -webkit-box-shadow: 0 2px 5px 0 #999;
