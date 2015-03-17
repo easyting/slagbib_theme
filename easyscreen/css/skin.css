@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'ApexBold';
+  src: url('../fonts/ApexSans-Extrabold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ApexSans-Extrabold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ApexSans-Extrabold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ApexSans-Extrabold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/ApexSans-Extrabold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ApexSans-Extrabold.svg#ApexBold') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'ApexMedium';
+  src: url('../fonts/ApexSans-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ApexSans-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ApexSans-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ApexSans-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/ApexSans-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ApexSans-Medium.svg#ApexMedium') format('svg'); /* Legacy iOS */
+}
+
 /* Variables */
 
 .search,
@@ -5,12 +25,9 @@
 #SlidersDiv .singleCarousel,
 #SlidersDiv .verticalTicker,
 #SlidersDiv .extended-vertical-ticker,
-.rss-ct-container.horizontalTicker {
+.rss-ct-container.horizontalTicker,
+.carousel-ct-container .title {
   background: url("../img/grey-p.png") repeat !important; /* Grey transparent bg */
-}
-
-#Header .text {
-  background: url("../img/slaglese-logo.png") no-repeat !important;
 }
 
 .filter-overlay {
@@ -40,7 +57,9 @@
 .rss-ct.extended-vertical-ticker .tab .date,
 .rss-ct.single-carousel .rss-item .content,
 #SlidersDiv .accordeon .title,
-#SlidersDiv .accordeon .teaser {
+#SlidersDiv .accordeon .teaser,
+.nodelist-title,
+.carousel-ct-container .title {
   color: #fff !important; /* White text color over transparent bg */
 }
 
@@ -76,7 +95,7 @@
 
 body {
   background: url("../img/bg-1.jpg") no-repeat;
-  font-family: 'Soho Gothic W01 Regular', Arial, Helvetica, sans-serif;
+  font-family: 'ApexMedium', Arial, Helvetica, sans-serif;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -146,10 +165,19 @@ body,
 
 #Header .text {
   display: inline-block;
+  font-family: 'ApexBold', Arial, Helvetica, sans-serif;
+  font-size: 32px;
   height: 95px;
+  letter-spacing: 0.1px;
+  line-height: 80px;
   margin-left: 7%;
-  text-indent: -9000px;
   width: 400px;
+}
+
+.nodelist-title,
+.carousel-ct-container .title {
+  font-family: 'ApexBold', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.05px;
 }
 
 /* Search */
@@ -253,6 +281,7 @@ body,
 
 .section-container.column3:last-child #SlidersDiv .horizontal-ticker .title,
 .section-container.column3:last-child #SlidersDiv .horizontalTicker .title {
+  font-family: 'ApexBold', Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
 
@@ -275,7 +304,14 @@ body,
 .single-ct-container .item-data,
 .carousel-tpl .item-data {
   position: absolute;
+  top: 10px;
   z-index: 12;
+}
+
+.section-container .carousel-ct-bodycontent .title {
+  display: block;
+  clear: both;
+  float: left;
 }
 
 .carousel-tpl .item-data {
@@ -303,7 +339,7 @@ body,
 .simple-tpl .header,
 .carousel-tpl .header {
   position: absolute;
-  top: 0;
+  top: 35px;
   width: 100%;
 }
 
@@ -326,15 +362,25 @@ body,
   text-transform: uppercase;
 }
 
-.simple-tpl .header p.date,
-.carousel-tpl .date,
-.simple-tpl .header .date-time,
-.carousel-tpl .date-time {
+.simple-tpl .header p.date {
   font-size: 24px;
   font-weight: bold;
 }
 
+.carousel-tpl .date,
+.simple-tpl .header .date-time,
+.carousel-tpl .date-time {
+  font-size: 24px;
+  font-family: 'ApexBold', Arial, Helvetica, sans-serif;
+}
+
+.single-ct-container .location,
+.carousel-ct-container .location {
+  font-family: 'ApexMedium', Arial, Helvetica, sans-serif;
+}
+
 #SlidersDiv .textandimage-ct-container .content .title {
+  font-family: 'ApexBold', Arial, Helvetica, sans-serif;
   font-size: 48px;
 }
 
@@ -345,16 +391,18 @@ body,
 .simple-tpl .item-data .body,
 .carousel-tpl .item-data .body {
   position: absolute;
-  top: 90px;
+  top: 100px;
 }
 
 .carousel-tpl .item-data .body {
   bottom: 90px;
+  width: 100%;
 }
 
 .single-ct-container .title,
 .carousel-tpl .title {
   display: inline-block;
+  font-family: 'ApexBold', Arial, Helvetica, sans-serif;
   font-size: 27px;
   font-weight: bold;
   padding: 3px 5px;
@@ -425,6 +473,7 @@ body,
 }
 
 .art-popup-tpl h1.title {
+  font-family: 'ApexBold', Arial, Helvetica, sans-serif;
   font-size: 48px;
   text-align: left;
 }
@@ -485,6 +534,7 @@ body,
 .rss-ct.extended-vertical-ticker .panel .title,
 .rss-ct.single-carousel .rss-item .content .title,
 #SlidersDiv .accordeon .title {
+  font-family: 'ApexBold', Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: bold;
 }
@@ -514,6 +564,10 @@ body,
 
 ul.newsticker {
   padding-bottom: 30px;
+}
+
+.simple-tpl .header p.event-time {
+  margin-left: 0;
 }
 
 /* Temporary content */
