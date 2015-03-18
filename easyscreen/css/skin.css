@@ -180,6 +180,15 @@ body,
   letter-spacing: 0.05px;
 }
 
+.nodelist-title {
+  position: relative;
+  top: -10px;
+}
+
+.carousel-ct-container .title {
+  padding-left: 10px;
+}
+
 /* Search */
 .search {
   position: absolute;
@@ -391,7 +400,7 @@ body,
 .simple-tpl .item-data .body,
 .carousel-tpl .item-data .body {
   position: absolute;
-  top: 100px;
+  top: 135px;
 }
 
 .carousel-tpl .item-data .body {
