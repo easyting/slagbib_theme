@@ -121,7 +121,7 @@ body,
 .section-container .carousel-ct-bodycontent .teaser,
 .single-ct-container .teaser {
   -ms-word-break: break-all;
-  word-break: break-all;
+  word-break: normal;
   font-size: 26px;
 }
 
@@ -424,6 +424,7 @@ body,
   line-height: 32px;
   margin-top: 25px;
   overflow: hidden;
+  word-break: normal;
 }
 
 .simple-tpl p.readMore {
