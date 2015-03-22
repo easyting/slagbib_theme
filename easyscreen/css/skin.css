@@ -748,6 +748,7 @@ ul.newsticker {
 .column3 .event-details .c3 {
   padding-right: 5%;
   width: 40%;
+  word-break: normal;
 }
 
 .column3 .event-details .c4 {
