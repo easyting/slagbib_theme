@@ -382,6 +382,10 @@ body,
   font-family: 'ApexBold', Arial, Helvetica, sans-serif;
 }
 
+.date-time .event-primary-address {
+  font-size: 20px;
+}
+
 .single-ct-container .location,
 .carousel-ct-container .location {
   font-family: 'ApexMedium', Arial, Helvetica, sans-serif;
@@ -399,7 +403,7 @@ body,
 .simple-tpl .item-data .body,
 .carousel-tpl .item-data .body {
   position: absolute;
-  top: 145px;
+  top: 186px;
 }
 
 .carousel-tpl .item-data .body {
